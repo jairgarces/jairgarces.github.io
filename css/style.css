@@ -1,0 +1,85 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.2);
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #00ffff;
+    text-decoration: none;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+a:hover {
+    color: #ff00ff;
+    text-shadow: 0 0 5px #ff00ff;
+}
+
+.top-bar {
+    background-color: #111;
+    padding: 0.5rem 1rem;
+}
+
+.top-bar a {
+    color: #333;
+    font-weight: 600;
+}
+
+.top-bar a:hover {
+    color: #00ffff;
+    text-shadow: 0 0 5px #00ffff;
+}
+
+img.thumbnail {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img.thumbnail:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.6);
+}
+
+.responsive-embed {
+    border: 2px solid #00ffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+    overflow: hidden;
+}
+
+.grid-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 1px solid #333;
+    color: #888;
+    font-size: 0.9rem;
+}
+
+h1, h2, h3 {
+    transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+
+h1:hover, h2:hover, h3:hover {
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #ff00ff;
+}

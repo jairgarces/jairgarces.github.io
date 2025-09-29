@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<HEAD>
+    <link rel="stylesheet" href="css/foundation.css">
+<link rel="stylesheet" href="css/style.css">
+
+</HEAD>
+<body>
+
+<div class="top-bar">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="fun.html">Fun Stuff</a></li>
+    </ul>
+  </div>
+</div>
+
+
+<main class="grid-container">
+  <h2>Projects</h2>
+
+  <div class="grid-x grid-padding-x">
+    <!-- Project 1 with image -->
+    <div class="cell medium-6">
+        <h3>Art History Board</h3>
+        <p>Made a board to describe The Crouching Woman by Pablo Picasso which I then printed and showed at an exhibit in the school. </p>
+      <img src="Slide1.jpg" alt="Project 1">
+
+    </div>
+
+    <!-- Project 2 with video -->
+    <div class="cell medium-6">
+      <h3>Sustainability Trivia Game</h3>
+      <p>Made a trivia game using JavaFX which I then presented to the president of the Sustainability club</p>
+
+      <!-- Foundation responsive video embed -->
+      <div class="responsive-embed widescreen">
+        <video controls width="100%">
+        <source src="OneRoundOfPlayVideo.mp4" type="video/mp4">
+        </video>
+
+      </div>
+    </div>
+
+    <!-- Project 3 with image -->
+    <div class="cell medium-6">
+    <h3>Hangman Game with AI opponent</h3>
+    <p>Made a basic hangman game with an opponent that uses different AI algorithms to make a decision.</p>
+      <img src="hangmanscreenshot.png" alt="Project 3">
+    </div>
+  </div>
+</main>
+
+
+
+
+
+    <!-- include before closing <body> tag -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script type="application/javascript">
+        $(document).foundation();
+    </script>
+
+</body>
+</html>
